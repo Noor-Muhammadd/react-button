@@ -1,0 +1,58 @@
+.users-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.user-details {
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 0;
+    width: 60%;
+}
+
+
+
+.add-user {
+    justify-content: right;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #008cba;
+}
+
+.button {
+    background-color: #4caf50;
+    /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+.button1:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 100%;
+    }
+}
